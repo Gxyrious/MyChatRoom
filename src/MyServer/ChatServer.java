@@ -17,7 +17,7 @@ public class ChatServer{
 		ServerSocket server = null;
 		Socket socket = null;
 		try {
-			server = new ServerSocket(19888);
+			server = new ServerSocket(60105);
 			System.out.println("*************服务端***************");
 	        System.out.println("服务器已经开启，端口19888等待被连接\n");
 		} catch (Exception e) {
