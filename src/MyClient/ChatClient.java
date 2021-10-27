@@ -16,7 +16,7 @@ public class ChatClient {
 	
 	public void init() {
 		try {
-			mysocket = new Socket("100.64.158.158", 19888);
+			mysocket = new Socket("100.64.158.158", 60105);
 			Thread thread = new Thread(new SentToServer());
 			dInputStream = new DataInputStream(mysocket.getInputStream());
 			dOutputStream = new DataOutputStream(mysocket.getOutputStream());
